@@ -1,0 +1,33 @@
+{{>header}}
+    {{>navbar}}
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main_content">
+                    <form action="" class="temp_form">
+                        <input type="text" id="cityName" placeholder="Enter your city name" autocomplete="off">
+                        {{!-- <input type="submit" value="Search"  > --}}
+                        <button  class="btnSubmit" id="submitbtn"><i class="fas fa-search"></i></button>
+                        {{!-- <i class='fa fa-rain' aria-hidden='true'></i> --}}
+                    </form>
+                </div>
+                <div class="temp_info" >
+                    <div class="top_layer">
+                        <p id="day">Tuesday</p>
+                        <p id="today_date">03 Mar</p>
+                    </div>
+                    <div class="main_layer">
+                        <p id="city_name">Get output here</p>
+                        <div class="middle_layer data_hide">
+                            <p><span id="temp"></span>℃</p>
+                            <p id="temp_status"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="js/main.js">
+
+    </script>
