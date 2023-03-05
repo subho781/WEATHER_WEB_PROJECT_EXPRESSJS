@@ -71,7 +71,7 @@ if (isDaytime) {
     }else if (tempMood=='Haze'){
         temp_status.innerHTML ="<i class='fa fa-cloud-moon' style='color:#FDB813' aria-hidden='true'></i>" ;
     }else{
-        temp_status.innerHTML ="<i class='fa fa-moon' style='color:#FDB813' aria-hidden='true'></i>" ; 
+        temp_status.innerHTML ="<i class='fa fa-moon' aria-hidden='true'></i>" ; 
     }
 }
         datahide.classList.remove('data_hide');
